@@ -1,5 +1,5 @@
 name:                cparens
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Parenthesize C operators
 -- description:
 license:             BSD3
@@ -14,5 +14,5 @@ cabal-version:       >=1.10
 
 executable cparens
   main-is:             Main.hs
-  build-depends:       base >=4.11 && <4.12, language-c >= 0.8.1, pretty
+  build-depends:       base >=4.11 && <5, language-c >= 0.8.1, pretty
   default-language:    Haskell2010
